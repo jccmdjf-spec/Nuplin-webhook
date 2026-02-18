@@ -23,8 +23,8 @@ app.get("/jwks/qa.json", (req, res) => {
         kty: "RSA",
         use: "sig",
         alg: "RS256",
-        kid: "ultranet-key-2",
-        n: "TU_MODULO_N",
+        kid: "0kjcQoKARRVTpBmZkk7ArVEP4r03pPupLnk0b_qC5ZI",
+        n: "tNIoFMZtddMxF8o9-s9gp945H7dMEaQcHNbIFdbLXpA9oE_-CNEjqmI77KgsyIkX9FZBnats9PwsMh6KdA7URxTvA6BlQTsfw-wCwv5kWld3S0whgKILPRVmjzJbuqpTRWPjKRgMrGvh9f54OnueSm5Z9xHm_ZIfzvnl8wP3BaF2vdpgg4sZT2yrwAX-pEDlyYT1G6sC2IFlyDT0egkoOLH38-cgm0swSa7T4XkmQf9Gjs7o7w-kjBCK5upfLnEamkwazI6FlWyGHktS6sqtVloUo6vs7X_E6Z5_MW-2v6ShIh5W60T3MhvmMxlrRA8yW23R995tsD6oGFSnhJLsDw",
         e: "AQAB"
       }
     ]
