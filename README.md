@@ -1,2 +1,18 @@
-# Nuplin-webhook
-Gestor de Nuplin con Ultranetcolombia
+# Nuplin Webhook Service
+
+Servicio webhook para integración ISP con **Nuplin** (Ultranet Colombia).
+
+Este proyecto expone endpoints necesarios para:
+
+- Activation Notification Endpoint
+- Public JWKS endpoint (QA y Production)
+- Health check para Render
+
+---
+
+## 🚀 Endpoints disponibles
+
+### Health Check
+
+```http
+GET /
